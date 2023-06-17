@@ -1,0 +1,18 @@
+{
+  "name": "@rfref/names",
+  "version": "1.4.2",
+  "description": "Мужские и женские имена РФ",
+  "main": "names.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdev876/rfref-names.git"
+  },
+  "author": "Zdev 876 <zdev876@mail.ru>",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
