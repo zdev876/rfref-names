@@ -1,6 +1,6 @@
 {
   "name": "@rfref/names",
-  "version": "1.4.3",
+  "version": "1.5.0",
   "description": "Мужские и женские имена РФ",
   "main": "names.js",
   "type": "module",
