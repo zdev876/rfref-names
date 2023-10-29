@@ -1,6 +1,7 @@
 import maleNames from './male-names.js';
 import femaleNames from './female-names.js';
 import recognize from './recognize.js';
+import normalize from './normalize.js';
 
 test('Распознавание пола', () => {
   expect(recognize('саша', 'мужчина')[0]).toBe('Александр');
@@ -14,3 +15,9 @@ test('Распознавание пола', () => {
   expect(recognize('игорек')).toEqual(['Игорь']);
   expect(recognize('рома')).toEqual(['Роман']);
 });
+
+test('Нормализация', () => {
+  expect(normalize('Данила')).toBe('даниил');
+  expect(normalize('Даниила')).toBe('даниил');
+  expect(normalize('Данил')).toBe('даниил');
+})
